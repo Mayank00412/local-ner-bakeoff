@@ -175,5 +175,4 @@ Confirm the expanded ranking on fresh held-out data.
 [Qwen 7B GGUF](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF),
 [llama.cpp b11935](https://github.com/ggml-org/llama.cpp/releases/tag/b11935).
 
-Codex generated the harness, set up the environment, executed local experiments
-and validation, and drafted documentation and analysis.
+
