@@ -1,0 +1,10 @@
+{"id": "d01", "entities": [{"text": "Priya Nair", "label": "PERSON"}]}
+{"id": "d02", "entities": [{"text": "Rotterdam", "label": "LOCATION"}, {"text": "Singapore", "label": "LOCATION"}]}
+{"id": "d03", "entities": [{"text": "Chinese New Year", "label": "EVENT"}]}
+{"id": "d04", "entities": [{"text": "Colombo", "label": "LOCATION"}]}
+{"id": "d05", "entities": [{"text": "Wen Li", "label": "PERSON"}, {"text": "Busan International Film Festival", "label": "LOCATION"}]}
+{"id": "d06", "entities": []}
+{"id": "d07", "entities": [{"text": "Raffles Institution", "label": "ORG"}, {"text": "Hwa Chong Institution", "label": "ORG"}]}
+{"id": "d08", "entities": [{"text": "Bengaluru", "label": "LOCATION"}, {"text": "Chennai", "label": "LOCATION"}]}
+{"id": "d09", "entities": [{"text": "Vientiane", "label": "LOCATION"}]}
+{"id": "d10", "entities": [{"text": "Aisha Rahman", "label": "PERSON"}, {"text": "Bluefin Studios", "label": "ORG"}, {"text": "Jurong", "label": "LOCATION"}]}

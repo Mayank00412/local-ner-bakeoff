@@ -1,0 +1,14 @@
+snippets scored: 10  missing predictions: 0  unknown ids: 0
+label           P      R     F1    TP    FP    FN
+PERSON      0.625  0.833  0.714     5     3     1
+ORG         1.000  1.000  1.000     5     0     0
+LOCATION    1.000  1.000  1.000     9     0     0
+EVENT       0.800  1.000  0.889     4     1     0
+MICRO-ALL   0.852  0.958  0.902    23     4     1
+
+errors (id, type, entity):
+  d03  FP  'dr. marcus teo' [PERSON]
+  d03  FN  'marcus teo' [PERSON]
+  d06  FP  'she' [PERSON]
+  d07  FP  'finals' [EVENT]
+  d07  FP  'students' [PERSON]

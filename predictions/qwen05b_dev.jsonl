@@ -1,0 +1,10 @@
+{"id": "d01", "entities": []}
+{"id": "d02", "entities": [{"text": "Harbourline Logistics", "label": "ORG"}]}
+{"id": "d03", "entities": [{"text": "Dr.", "label": "ORG"}, {"text": "Marcus Teo", "label": "PERSON"}, {"text": "clinic", "label": "ORG"}, {"text": "reporters", "label": "ORG"}]}
+{"id": "d04", "entities": [{"text": "Asia Cup", "label": "ORG"}]}
+{"id": "d05", "entities": [{"text": "Busan International Film Festival", "label": "ORG"}, {"text": "Wen Li", "label": "PERSON"}]}
+{"id": "d06", "entities": [{"text": "proposal", "label": "ORG"}]}
+{"id": "d07", "entities": [{"text": "Raffles Institution", "label": "ORG"}, {"text": "Hwa Chong Institution", "label": "ORG"}]}
+{"id": "d08", "entities": [{"text": "Kavya Reddy", "label": "PERSON"}, {"text": "Northwind Analytics", "label": "ORG"}]}
+{"id": "d09", "entities": []}
+{"id": "d10", "entities": [{"text": "Bluefin Studios", "label": "ORG"}]}

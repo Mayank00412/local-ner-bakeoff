@@ -1,0 +1,32 @@
+snippets scored: 50  missing predictions: 0  unknown ids: 0
+label           P      R     F1    TP    FP    FN
+PERSON      0.800  0.923  0.857    24     6     2
+ORG         0.793  0.920  0.852    23     6     2
+LOCATION    0.977  1.000  0.988    42     1     0
+EVENT       0.714  1.000  0.833    15     6     0
+MICRO-ALL   0.846  0.963  0.900   104    19     4
+
+errors (id, type, entity):
+  t01  FP  'minister' [ORG]
+  t02  FP  'jordanian officials' [ORG]
+  t02  FP  'water projects' [EVENT]
+  t09  FP  'state lottery' [EVENT]
+  t11  FP  'he' [PERSON]
+  t19  FP  'researchers' [ORG]
+  t20  FP  'individuals' [PERSON]
+  t22  FP  'spokesperson' [PERSON]
+  t28  FP  'the straits orchestra' [ORG]
+  t28  FN  'straits orchestra' [ORG]
+  t29  FP  'police' [ORG]
+  t29  FP  'hiker' [PERSON]
+  t34  FP  'district science fair' [EVENT]
+  t38  FP  'scientists' [ORG]
+  t38  FP  'bleaching event' [EVENT]
+  t40  FP  'deadline in dubai' [EVENT]
+  t42  FP  'thursday' [EVENT]
+  t45  FP  'construction site' [LOCATION]
+  t49  FP  'brother anselm' [PERSON]
+  t49  FN  'anselm' [PERSON]
+  t49  FN  "st. andrew's mission" [ORG]
+  t50  FP  'councillor grace tay' [PERSON]
+  t50  FN  'grace tay' [PERSON]

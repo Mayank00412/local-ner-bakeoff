@@ -1,0 +1,13 @@
+{"id": "t01", "entities": [{"text": "Daniel Koh", "label": "PERSON"}, {"text": "Tuas", "label": "LOCATION"}]}
+{"id": "t02", "entities": [{"text": "Jordan Ellis", "label": "PERSON"}, {"text": "Amman", "label": "LOCATION"}]}
+{"id": "t03", "entities": [{"text": "Leila Haddad", "label": "PERSON"}, {"text": "Phoenix Capital", "label": "ORG"}]}
+{"id": "t04", "entities": [{"text": "Phoenix", "label": "LOCATION"}]}
+{"id": "t05", "entities": [{"text": "Victoria Lim", "label": "PERSON"}, {"text": "Victoria Harbour", "label": "LOCATION"}, {"text": "Hong Kong Sevens", "label": "EVENT"}]}
+{"id": "t06", "entities": [{"text": "rohan mehta", "label": "PERSON"}, {"text": "mumbai", "label": "LOCATION"}]}
+{"id": "t07", "entities": [{"text": "Jakarta", "label": "LOCATION"}, {"text": "ASEAN Summit", "label": "EVENT"}]}
+{"id": "t08", "entities": [{"text": "Ministry of Transport", "label": "ORG"}, {"text": "Land Transport Authority", "label": "ORG"}]}
+{"id": "t09", "entities": [{"text": "Ng Kah Hock", "label": "PERSON"}, {"text": "Penang", "label": "LOCATION"}]}
+{"id": "t10", "entities": [{"text": "Mary-Ann Fernandez", "label": "PERSON"}, {"text": "Kochi Muziris Biennale", "label": "ORG"}]}
+{"id": "t11", "entities": []}
+{"id": "t12", "entities": [{"text": "Da Nang", "label": "LOCATION"}]}
+{"id": "t13", "entities": [{"text": "Esplanade", "label": "LOCATION"}, {"text": "National Day Parade", "label": "EVENT"}]}

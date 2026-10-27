@@ -1,0 +1,102 @@
+{
+  "model": {
+    "name": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "parameters": 494032768,
+    "dtype": "torch.float32",
+    "quantization": "none",
+    "device": "cpu"
+  },
+  "input_sha256": "e2268db9e8038956219c9df8df0d17084839c35356466f53d9bc8e77e1260aee",
+  "prompt_sha256": "e8ae4542e50232867191206c5268eeeca243883b6ef713d75584d2b0c8347737",
+  "threads": 4,
+  "snippets": 10,
+  "median_seconds": 10.907309049973264,
+  "p95_seconds": 21.652024900075048,
+  "mean_seconds": 12.506800450012088,
+  "peak_rss_mib": 2262.421875,
+  "parse_failures": 1,
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "gliner": "0.2.29",
+    "psutil": "7.2.2"
+  },
+  "python": "3.13.5",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "logical_cpus": 16,
+  "ram_gib": 15.74490737915039,
+  "audit": [
+    {
+      "id": "d01",
+      "seconds": 16.030794200021774,
+      "raw": "{\"entities\": [{\"text\": \"Priya Nair\", \"label\": \"PERSON\"}, {\"text\": \"Gardens by the Bay\", \"label\": \"LOC\"}, {\"text\": \"Lantern Festival\", \"label\": \"EVENT\"}}]",
+      "parse_error": "Cannot identify a unique JSON object",
+      "rejected": 0
+    },
+    {
+      "id": "d02",
+      "seconds": 10.419301200076006,
+      "raw": "{\"entities\": [{\"text\": \"harbourline logistics\", \"label\": \"ORG\"}, {\"text\": \"roberto\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 1
+    },
+    {
+      "id": "d03",
+      "seconds": 21.652024900075048,
+      "raw": "{\"entities\": [{\"text\": \"Dr.\", \"label\": \"ORG\"}, {\"text\": \"Marcus Teo\", \"label\": \"PERSON\"}, {\"text\": \"clinic\", \"label\": \"ORG\"}, {\"text\": \"Chinese New Year\", \"label\": \"DATE\"}, {\"text\": \"reporters\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 1
+    },
+    {
+      "id": "d04",
+      "seconds": 10.346388600068167,
+      "raw": "{\"entities\": [{\"text\": \"Asia Cup\", \"label\": \"ORG\"}, {\"text\": \"Colombo\", \"label\": \"LOC\"}]}",
+      "parse_error": null,
+      "rejected": 1
+    },
+    {
+      "id": "d05",
+      "seconds": 10.909271699958481,
+      "raw": "{\"entities\": [{\"text\": \"Busan International Film Festival\", \"label\": \"ORG\"}, {\"text\": \"Wen Li\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d06",
+      "seconds": 9.507877899915911,
+      "raw": "{\"entities\": [{\"text\": \"proposal\", \"label\": \"ORG\"}, {\"text\": \"review\", \"label\": \"PERIOD\"}]}",
+      "parse_error": null,
+      "rejected": 1
+    },
+    {
+      "id": "d07",
+      "seconds": 10.905346399988048,
+      "raw": "{\"entities\": [{\"text\": \"Raffles Institution\", \"label\": \"ORG\"}, {\"text\": \"Hwa Chong Institution\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d08",
+      "seconds": 11.132352499989793,
+      "raw": "{\"entities\": [{\"text\": \"Kavya Reddy\", \"label\": \"PERSON\"}, {\"text\": \"Northwind Analytics\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d09",
+      "seconds": 13.879846499999985,
+      "raw": "{\"entities\": [{\"text\": \"Vientiane\", \"label\": \"LOC\"}, {\"text\": \"Mekong\", \"label\": \"LOC\"}, {\"text\": \"village\", \"label\": \"LOC\"}]}",
+      "parse_error": null,
+      "rejected": 3
+    },
+    {
+      "id": "d10",
+      "seconds": 10.284800600027665,
+      "raw": "{\"entities\": [{\"text\": \"Bluefin Studios\", \"label\": \"ORG\"}, {\"text\": \"Jurong\", \"label\": \"LOC\"}]}",
+      "parse_error": null,
+      "rejected": 1
+    }
+  ]
+}

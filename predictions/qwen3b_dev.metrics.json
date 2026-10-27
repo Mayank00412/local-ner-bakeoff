@@ -1,0 +1,124 @@
+{
+  "model": {
+    "name": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+    "revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+    "parameters": 3085938688,
+    "dtype": "mixed GGUF Q4_K_M",
+    "quantization": "Q4_K_M",
+    "device": "cpu",
+    "runtime": "llama.cpp b11935 CPU x64",
+    "runtime_sha256": "d13e3d617a724eef10a533b18d1178b5292f7f1395965adf4e83b1ab4e9fc4b6",
+    "context_tokens": 2048,
+    "repeat_penalty": 1.1,
+    "repeat_last_n": 2048,
+    "cache_prompt": false,
+    "phase": "post-review extension; fixed prompt/cleaner; previously inspected test set",
+    "model_files": [
+      {
+        "name": "qwen2.5-3b-instruct-q4_k_m.gguf",
+        "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+        "bytes": 2104932768
+      }
+    ],
+    "server_log": "results/qwen3b_llama_server_1793127315465886700.log",
+    "stored_tensor_parameters": 3397103616,
+    "base_model": {
+      "name": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "parameters": 3085938688
+    },
+    "parameter_count_note": "Metadata-only normalization from GGUF tensor elements to official base-model parameter count; predictions and timings unchanged."
+  },
+  "input_sha256": "e2268db9e8038956219c9df8df0d17084839c35356466f53d9bc8e77e1260aee",
+  "prompt_sha256": "e8ae4542e50232867191206c5268eeeca243883b6ef713d75584d2b0c8347737",
+  "threads": 4,
+  "snippets": 10,
+  "median_seconds": 5.122335099964403,
+  "p95_seconds": 6.617770800017752,
+  "mean_seconds": 5.065918870014139,
+  "peak_rss_mib": 3334.7109375,
+  "parse_failures": 0,
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "gliner": "0.2.29",
+    "psutil": "7.2.2"
+  },
+  "python": "3.13.5",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "logical_cpus": 16,
+  "ram_gib": 15.74490737915039,
+  "audit": [
+    {
+      "id": "d01",
+      "seconds": 4.849044400034472,
+      "raw": "{\"entities\": [{\"text\": \"Priya Nair\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d02",
+      "seconds": 6.041233900003135,
+      "raw": "{\"entities\": [{\"text\": \"Rotterdam\", \"label\": \"LOCATION\"}, {\"text\": \"Singapore\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d03",
+      "seconds": 5.32387690001633,
+      "raw": "{\"entities\": [{\"text\": \"Chinese New Year\", \"label\": \"EVENT\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d04",
+      "seconds": 4.555321300053038,
+      "raw": "{\"entities\": [{\"text\": \"Colombo\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d05",
+      "seconds": 5.736488800030202,
+      "raw": "{\"entities\": [{\"text\": \"Wen Li\", \"label\": \"PERSON\"}, {\"text\": \"Busan International Film Festival\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d06",
+      "seconds": 2.7631052000215277,
+      "raw": "{\"entities\": []}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d07",
+      "seconds": 5.028979599941522,
+      "raw": "{\"entities\": [{\"text\": \"Raffles Institution\", \"label\": \"ORG\"}, {\"text\": \"Hwa Chong Institution\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d08",
+      "seconds": 5.215690599987283,
+      "raw": "{\"entities\": [{\"text\": \"Bengaluru\", \"label\": \"LOCATION\"}, {\"text\": \"Chennai\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d09",
+      "seconds": 4.527677200036123,
+      "raw": "{\"entities\": [{\"text\": \"Vientiane\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "d10",
+      "seconds": 6.617770800017752,
+      "raw": "{\"entities\": [{\"text\": \"Aisha Rahman\", \"label\": \"PERSON\"}, {\"text\": \"Bluefin Studios\", \"label\": \"ORG\"}, {\"text\": \"Jurong\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Preserve the supplied datasets, scorer, and recorded SHA-256 provenance.
+* -text
+*.pdf binary
+*.zip binary

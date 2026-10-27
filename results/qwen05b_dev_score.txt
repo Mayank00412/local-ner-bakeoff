@@ -1,0 +1,31 @@
+snippets scored: 10  missing predictions: 0  unknown ids: 0
+label           P      R     F1    TP    FP    FN
+PERSON      1.000  0.500  0.667     3     0     3
+ORG         0.455  1.000  0.625     5     6     0
+LOCATION    0.000  0.000  0.000     0     0     9
+EVENT       0.000  0.000  0.000     0     0     4
+MICRO-ALL   0.571  0.333  0.421     8     6    16
+
+errors (id, type, entity):
+  d01  FN  'gardens by the bay' [LOCATION]
+  d01  FN  'lantern festival' [EVENT]
+  d01  FN  'priya nair' [PERSON]
+  d02  FN  'rotterdam' [LOCATION]
+  d02  FN  'singapore' [LOCATION]
+  d03  FP  'dr.' [ORG]
+  d03  FP  'clinic' [ORG]
+  d03  FP  'reporters' [ORG]
+  d03  FN  'chinese new year' [EVENT]
+  d04  FP  'asia cup' [ORG]
+  d04  FN  'colombo' [LOCATION]
+  d04  FN  'asia cup' [EVENT]
+  d05  FP  'busan international film festival' [ORG]
+  d05  FN  'busan international film festival' [EVENT]
+  d06  FP  'proposal' [ORG]
+  d08  FN  'bengaluru' [LOCATION]
+  d08  FN  'chennai' [LOCATION]
+  d09  FN  'mekong' [LOCATION]
+  d09  FN  'vientiane' [LOCATION]
+  d10  FN  'tan wei ming' [PERSON]
+  d10  FN  'jurong' [LOCATION]
+  d10  FN  'aisha rahman' [PERSON]

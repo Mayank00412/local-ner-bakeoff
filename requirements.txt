@@ -1,0 +1,5 @@
+gliner>=0.2.21,<0.3
+transformers>=4.51,<5
+torch>=2.6,<3
+psutil>=6,<8
+sentencepiece>=0.2,<0.3

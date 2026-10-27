@@ -1,0 +1,408 @@
+{
+  "model": {
+    "name": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+    "revision": "bb5d59e06d9551d752d08b292a50eb208b07ab1f",
+    "parameters": 7615616512,
+    "stored_tensor_parameters": 7615616512,
+    "base_model": {
+      "name": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "parameters": 7615616512
+    },
+    "dtype": "mixed GGUF Q4_K_M",
+    "quantization": "Q4_K_M",
+    "device": "cpu",
+    "runtime": "llama.cpp b11935 CPU x64",
+    "runtime_sha256": "d13e3d617a724eef10a533b18d1178b5292f7f1395965adf4e83b1ab4e9fc4b6",
+    "context_tokens": 2048,
+    "repeat_penalty": 1.1,
+    "repeat_last_n": 2048,
+    "cache_prompt": false,
+    "phase": "post-review extension; fixed prompt/cleaner; previously inspected test set",
+    "model_files": [
+      {
+        "name": "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+        "sha256": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+        "bytes": 3993201344
+      },
+      {
+        "name": "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf",
+        "sha256": "539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a",
+        "bytes": 689872288
+      }
+    ],
+    "server_log": "results/qwen7b_llama_server_1793128362215585900.log"
+  },
+  "input_sha256": "4e92b1200692fda2494c8052c589d384f613483ffadb450e94f438384990397d",
+  "prompt_sha256": "e8ae4542e50232867191206c5268eeeca243883b6ef713d75584d2b0c8347737",
+  "threads": 4,
+  "snippets": 50,
+  "median_seconds": 13.70468579995213,
+  "p95_seconds": 17.70011269999668,
+  "mean_seconds": 13.138838162003085,
+  "peak_rss_mib": 5362.71875,
+  "parse_failures": 0,
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "gliner": "0.2.29",
+    "psutil": "7.2.2"
+  },
+  "python": "3.13.5",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "logical_cpus": 16,
+  "ram_gib": 15.74490737915039,
+  "audit": [
+    {
+      "id": "t01",
+      "seconds": 12.449452699976973,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Daniel Koh\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Tuas\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t02",
+      "seconds": 12.293238900019787,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Jordan Ellis\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Amman\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t03",
+      "seconds": 12.792938200058416,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Leila Haddad\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Phoenix Capital\",\n      \"label\": \"ORG\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t04",
+      "seconds": 9.074668899993412,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Phoenix\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t05",
+      "seconds": 16.177050200058147,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Victoria Lim\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Victoria Harbour\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"Hong Kong Sevens\",\n      \"label\": \"EVENT\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t06",
+      "seconds": 13.018432300072163,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Rohan Mehta\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Mumbai\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t07",
+      "seconds": 12.499100800021552,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Jakarta\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"ASEAN Summit\",\n      \"label\": \"EVENT\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t08",
+      "seconds": 13.865934700006619,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Ministry of Transport\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Land Transport Authority\",\n      \"label\": \"ORG\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t09",
+      "seconds": 13.720899199950509,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Ng Kah Hock\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Penang\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t10",
+      "seconds": 14.539768799906597,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Mary-Ann Fernandez\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Kochi Muziris Biennale\",\n      \"label\": \"ORG\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t11",
+      "seconds": 6.110868299962021,
+      "raw": "{\"entities\": []}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t12",
+      "seconds": 10.17164319998119,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Da Nang\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t13",
+      "seconds": 13.590443200082518,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Esplanade\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"National Day Parade\",\n      \"label\": \"EVENT\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t14",
+      "seconds": 13.416330400039442,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Greenfield Bank\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Kolkata\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t15",
+      "seconds": 17.664604900055565,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Sofia Petrova\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Dinamo Riga\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Tallinn United\",\n      \"label\": \"ORG\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t16",
+      "seconds": 10.257396099972539,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Little India\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t17",
+      "seconds": 13.988047600025311,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Mekong River Commission\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Phnom Penh\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t18",
+      "seconds": 13.688472399953753,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Anil Rao\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Rajiv\",\n      \"label\": \"PERSON\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t19",
+      "seconds": 9.853008200065233,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Amazon\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t20",
+      "seconds": 6.437106500030495,
+      "raw": "{\"entities\": []}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t21",
+      "seconds": 13.729309599963017,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Kuala Lumpur\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"Kota Kinabalu\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t22",
+      "seconds": 13.925510999979451,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Bluewave Telecom\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Johor\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t23",
+      "seconds": 14.602888999972492,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Formula 1 Singapore Grand Prix\",\n      \"label\": \"EVENT\"\n    },\n    {\n      \"text\": \"Marina Bay\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t24",
+      "seconds": 18.649451600038446,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Thomas Becker\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Hamburg\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"University of Auckland\",\n      \"label\": \"ORG\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t25",
+      "seconds": 11.23170849995222,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Johor Bahru\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t26",
+      "seconds": 11.63565379998181,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Orchid Pharma\",\n      \"label\": \"ORG\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t27",
+      "seconds": 14.715633400017396,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Mei Ling Zhou\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Arturo Gil\",\n      \"label\": \"PERSON\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t28",
+      "seconds": 14.10690060001798,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Straits Orchestra\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Victoria Concert Hall\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t29",
+      "seconds": 6.716345599968918,
+      "raw": "{\n  \"entities\": []\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t30",
+      "seconds": 17.47677280008793,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Ravi Chandran\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Lotus Realty\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Whitefield\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t31",
+      "seconds": 13.843217300018296,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Jakarta\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"Indonesian Football Association\",\n      \"label\": \"ORG\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t32",
+      "seconds": 20.870877800043672,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Elena Rossi\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Milan\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"Perth\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"Australian Open\",\n      \"label\": \"EVENT\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t33",
+      "seconds": 14.104167699930258,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Mount Kinabalu\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"Sandakan\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t34",
+      "seconds": 16.3090918000089,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Oakridge Primary School\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"district science fair\",\n      \"label\": \"EVENT\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t35",
+      "seconds": 16.185568999964744,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Dewi Lestari\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Yogyakarta\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t36",
+      "seconds": 17.30284189991653,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Evergreen Insurance\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Northshore Trust\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Singapore\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t37",
+      "seconds": 14.722737199976109,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Sundaram Iyer\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Madras Cricket Club\",\n      \"label\": \"ORG\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t38",
+      "seconds": 10.360292400000617,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Cairns\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t39",
+      "seconds": 14.42449799994938,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Hana Sato\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Jin-woo Park\",\n      \"label\": \"PERSON\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t40",
+      "seconds": 6.368592599988915,
+      "raw": "{\"entities\": []}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t41",
+      "seconds": 13.888384800055064,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Michael Soh\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Sentosa Sharks\",\n      \"label\": \"ORG\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t42",
+      "seconds": 10.565238300012425,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Bukit Timah\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t43",
+      "seconds": 16.822829899960198,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Silverline Foods\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Dhaka\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"Colombo\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t44",
+      "seconds": 10.4235319000436,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Isabelle Moreau\",\n      \"label\": \"PERSON\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t45",
+      "seconds": 10.096210799994878,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Changi\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t46",
+      "seconds": 10.580210199928842,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Seoul Olympics\",\n      \"label\": \"EVENT\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t47",
+      "seconds": 17.70011269999668,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Fatima Al-Sayed\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"Delta Labs\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Berlin AI Summit\",\n      \"label\": \"EVENT\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t48",
+      "seconds": 13.289360800059512,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Batam\",\n      \"label\": \"LOCATION\"\n    },\n    {\n      \"text\": \"HarbourFront\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t49",
+      "seconds": 16.649961600080132,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Anselm\",\n      \"label\": \"PERSON\"\n    },\n    {\n      \"text\": \"St. Andrew's Mission\",\n      \"label\": \"ORG\"\n    },\n    {\n      \"text\": \"Penang\",\n      \"label\": \"LOCATION\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t50",
+      "seconds": 10.034600000013597,
+      "raw": "{\n  \"entities\": [\n    {\n      \"text\": \"Grace Tay\",\n      \"label\": \"PERSON\"\n    }\n  ]\n}",
+      "parse_error": null,
+      "rejected": 0
+    }
+  ]
+}

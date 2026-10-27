@@ -1,0 +1,50 @@
+{"id": "t01", "entities": [{"text": "Daniel Koh", "label": "PERSON"}]}
+{"id": "t02", "entities": [{"text": "Amman", "label": "LOCATION"}, {"text": "Jordanian", "label": "LOCATION"}]}
+{"id": "t03", "entities": [{"text": "Leila Haddad", "label": "PERSON"}]}
+{"id": "t04", "entities": []}
+{"id": "t05", "entities": [{"text": "Victoria Harbour", "label": "LOCATION"}, {"text": "Hong Kong Sevens", "label": "EVENT"}]}
+{"id": "t06", "entities": [{"text": "mumbai", "label": "LOCATION"}]}
+{"id": "t07", "entities": [{"text": "Jakarta", "label": "LOCATION"}, {"text": "ASEAN", "label": "ORG"}]}
+{"id": "t08", "entities": [{"text": "Land Transport Authority", "label": "ORG"}]}
+{"id": "t09", "entities": [{"text": "Penang", "label": "LOCATION"}]}
+{"id": "t10", "entities": [{"text": "Mary-Ann Fernandez", "label": "PERSON"}]}
+{"id": "t11", "entities": []}
+{"id": "t12", "entities": [{"text": "Da Nang", "label": "LOCATION"}]}
+{"id": "t13", "entities": [{"text": "Esplanade", "label": "LOCATION"}, {"text": "National Day Parade", "label": "EVENT"}]}
+{"id": "t14", "entities": [{"text": "Kolkata", "label": "LOCATION"}]}
+{"id": "t15", "entities": [{"text": "Dinamo Riga", "label": "ORG"}, {"text": "Tallinn United", "label": "ORG"}]}
+{"id": "t16", "entities": []}
+{"id": "t17", "entities": [{"text": "Phnom Penh", "label": "LOCATION"}]}
+{"id": "t18", "entities": [{"text": "Anil Rao", "label": "PERSON"}, {"text": "Rajiv", "label": "PERSON"}, {"text": "Udaipur", "label": "LOCATION"}]}
+{"id": "t19", "entities": []}
+{"id": "t20", "entities": []}
+{"id": "t21", "entities": [{"text": "Kuala Lumpur", "label": "LOCATION"}, {"text": "Kota Kinabalu", "label": "LOCATION"}]}
+{"id": "t22", "entities": [{"text": "Johor", "label": "LOCATION"}, {"text": "Bluewave Telecom", "label": "ORG"}]}
+{"id": "t23", "entities": []}
+{"id": "t24", "entities": [{"text": "Hamburg", "label": "LOCATION"}, {"text": "University of Auckland", "label": "ORG"}]}
+{"id": "t25", "entities": []}
+{"id": "t26", "entities": [{"text": "Hyderabad", "label": "LOCATION"}]}
+{"id": "t27", "entities": [{"text": "Mei Ling Zhou", "label": "PERSON"}, {"text": "Arturo Gil", "label": "PERSON"}]}
+{"id": "t28", "entities": [{"text": "Victoria Concert Hall", "label": "LOCATION"}]}
+{"id": "t29", "entities": []}
+{"id": "t30", "entities": [{"text": "Whitefield", "label": "LOCATION"}, {"text": "Lotus Realty", "label": "ORG"}]}
+{"id": "t31", "entities": [{"text": "Indonesian Football Association", "label": "ORG"}]}
+{"id": "t32", "entities": [{"text": "Perth", "label": "LOCATION"}, {"text": "Australian Open", "label": "EVENT"}]}
+{"id": "t33", "entities": [{"text": "Kinabalu", "label": "LOCATION"}, {"text": "Sandakan", "label": "LOCATION"}]}
+{"id": "t34", "entities": [{"text": "Oakridge Primary School", "label": "ORG"}]}
+{"id": "t35", "entities": [{"text": "Yogyakarta", "label": "LOCATION"}]}
+{"id": "t36", "entities": [{"text": "Singapore", "label": "LOCATION"}]}
+{"id": "t37", "entities": [{"text": "Sundaram Iyer", "label": "PERSON"}]}
+{"id": "t38", "entities": [{"text": "Cairns", "label": "LOCATION"}]}
+{"id": "t39", "entities": [{"text": "Seoul", "label": "LOCATION"}]}
+{"id": "t40", "entities": []}
+{"id": "t41", "entities": [{"text": "Michael Soh", "label": "PERSON"}, {"text": "Sentosa Sharks", "label": "ORG"}]}
+{"id": "t42", "entities": [{"text": "Bukit Timah", "label": "LOCATION"}]}
+{"id": "t43", "entities": [{"text": "Silverline Foods", "label": "ORG"}]}
+{"id": "t44", "entities": [{"text": "Isabelle Moreau", "label": "PERSON"}]}
+{"id": "t45", "entities": []}
+{"id": "t46", "entities": []}
+{"id": "t47", "entities": [{"text": "Fatima Al-Sayed", "label": "PERSON"}, {"text": "Delta Labs", "label": "ORG"}, {"text": "Berlin AI Summit", "label": "EVENT"}]}
+{"id": "t48", "entities": []}
+{"id": "t49", "entities": [{"text": "Penang", "label": "LOCATION"}]}
+{"id": "t50", "entities": [{"text": "Grace Tay", "label": "PERSON"}]}

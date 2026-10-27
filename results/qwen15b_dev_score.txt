@@ -1,0 +1,19 @@
+snippets scored: 10  missing predictions: 0  unknown ids: 0
+label           P      R     F1    TP    FP    FN
+PERSON      1.000  0.500  0.667     3     0     3
+ORG         1.000  1.000  1.000     5     0     0
+LOCATION    1.000  0.556  0.714     5     0     4
+EVENT       1.000  0.250  0.400     1     0     3
+MICRO-ALL   1.000  0.583  0.737    14     0    10
+
+errors (id, type, entity):
+  d01  FN  'lantern festival' [EVENT]
+  d01  FN  'priya nair' [PERSON]
+  d02  FN  'rotterdam' [LOCATION]
+  d02  FN  'singapore' [LOCATION]
+  d03  FN  'chinese new year' [EVENT]
+  d04  FN  'colombo' [LOCATION]
+  d05  FN  'busan international film festival' [EVENT]
+  d10  FN  'jurong' [LOCATION]
+  d10  FN  'aisha rahman' [PERSON]
+  d10  FN  'tan wei ming' [PERSON]

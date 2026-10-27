@@ -1,0 +1,382 @@
+{
+  "model": {
+    "name": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "parameters": 1543714304,
+    "dtype": "torch.float32",
+    "quantization": "none",
+    "device": "cpu"
+  },
+  "input_sha256": "4e92b1200692fda2494c8052c589d384f613483ffadb450e94f438384990397d",
+  "prompt_sha256": "e8ae4542e50232867191206c5268eeeca243883b6ef713d75584d2b0c8347737",
+  "threads": 4,
+  "snippets": 50,
+  "median_seconds": 19.602483250026125,
+  "p95_seconds": 37.224063299945556,
+  "mean_seconds": 22.41315284599317,
+  "peak_rss_mib": 6046.9921875,
+  "parse_failures": 0,
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "gliner": "0.2.29",
+    "psutil": "7.2.2"
+  },
+  "python": "3.13.5",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "logical_cpus": 16,
+  "ram_gib": 15.74490737915039,
+  "audit": [
+    {
+      "id": "t01",
+      "seconds": 16.325175800011493,
+      "raw": "{\"entities\": [{\"text\": \"Daniel Koh\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t02",
+      "seconds": 16.98015459999442,
+      "raw": "{\"entities\": [{\"text\": \"Jordanian\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t03",
+      "seconds": 18.90710960002616,
+      "raw": "{\"entities\": [{\"text\": \"Leila Haddad\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t04",
+      "seconds": 16.477429899969138,
+      "raw": "{\"entities\": [{\"text\": \"Phoenix\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t05",
+      "seconds": 16.942133800010197,
+      "raw": "{\"entities\": [{\"text\": \"Victoria Harbour\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t06",
+      "seconds": 18.886305299936794,
+      "raw": "{\"entities\": [{\"text\": \"rohan mehta\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t07",
+      "seconds": 37.8906003999291,
+      "raw": "{\"entities\": [{\"text\": \"ASEAN\", \"label\": \"ORG\"}, {\"text\": \"Jakarta\", \"label\": \"LOCATION\"}, {\"text\": \"ASEAN Summit\", \"label\": \"EVENT\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t08",
+      "seconds": 30.299782699905336,
+      "raw": "{\"entities\": [{\"text\": \"Ministry of Transport\", \"label\": \"ORG\"}, {\"text\": \"Land Transport Authority\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t09",
+      "seconds": 19.95918840006925,
+      "raw": "{\"entities\": [{\"text\": \"Ng Kah Hock\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t10",
+      "seconds": 20.928697899915278,
+      "raw": "{\"entities\": [{\"text\": \"Mary-Ann Fernandez\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t11",
+      "seconds": 17.633108500042,
+      "raw": "{\"entities\": [{\"text\": \"results\", \"label\": \"EVENT\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t12",
+      "seconds": 18.425933399936184,
+      "raw": "{\"entities\": [{\"text\": \"Meilan\", \"label\": \"EVENT\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t13",
+      "seconds": 19.245778099983,
+      "raw": "{\"entities\": [{\"text\": \"Esplanade\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t14",
+      "seconds": 18.641633399995044,
+      "raw": "{\"entities\": [{\"text\": \"Greenfield Bank\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t15",
+      "seconds": 29.541484399931505,
+      "raw": "{\"entities\": [{\"text\": \"Dinamo Riga\", \"label\": \"ORG\"}, {\"text\": \"Tallinn United\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t16",
+      "seconds": 16.81131529994309,
+      "raw": "{\"entities\": [{\"text\": \"Little India\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t17",
+      "seconds": 18.57925189996604,
+      "raw": "{\"entities\": [{\"text\": \"Mekong River Commission\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t18",
+      "seconds": 40.254076400073245,
+      "raw": "{\"entities\": [{\"text\": \"Rajiv\", \"label\": \"PERSON\"}, {\"text\": \"Lake Pichola\", \"label\": \"LOCATION\"}, {\"text\": \"Udaipur\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t19",
+      "seconds": 16.692925499984995,
+      "raw": "{\"entities\": [{\"text\": \"Amazon\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t20",
+      "seconds": 22.77794089994859,
+      "raw": "{\"entities\": [{\"text\": \"Institute of Policy Studies\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t21",
+      "seconds": 32.41847040003631,
+      "raw": "{\"entities\": [{\"text\": \"Kuala Lumpur\", \"label\": \"LOCATION\"}, {\"text\": \"Kota Kinabalu\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t22",
+      "seconds": 17.582792699919082,
+      "raw": "{\"entities\": [{\"text\": \"Bluewave Telecom\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t23",
+      "seconds": 17.252774300053716,
+      "raw": "{\"entities\": [{\"text\": \"Singapore Grand Prix\", \"label\": \"EVENT\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t24",
+      "seconds": 37.224063299945556,
+      "raw": "{\"entities\": [{\"text\": \"Thomas Becker\", \"label\": \"PERSON\"}, {\"text\": \"Hamburg\", \"label\": \"LOCATION\"}, {\"text\": \"University of Auckland\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t25",
+      "seconds": 30.024395799962804,
+      "raw": "{\"entities\": [{\"text\": \"Causeway\", \"label\": \"LOCATION\"}, {\"text\": \"Johor Bahru\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t26",
+      "seconds": 17.71077999996487,
+      "raw": "{\"entities\": [{\"text\": \"Hyderabad\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t27",
+      "seconds": 30.002184699987993,
+      "raw": "{\"entities\": [{\"text\": \"Mei Ling Zhou\", \"label\": \"PERSON\"}, {\"text\": \"Arturo Gil\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t28",
+      "seconds": 27.60903509997297,
+      "raw": "{\"entities\": [{\"text\": \"Straits Orchestra\", \"label\": \"ORG\"}, {\"text\": \"Victoria Concert Hall\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t29",
+      "seconds": 7.172623399994336,
+      "raw": "{\"entities\": []}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t30",
+      "seconds": 17.073381099966355,
+      "raw": "{\"entities\": [{\"text\": \"Lotus Realty\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t31",
+      "seconds": 27.69773440004792,
+      "raw": "{\"entities\": [{\"text\": \"Jakarta\", \"label\": \"LOCATION\"}, {\"text\": \"Indonesian Football Association\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t32",
+      "seconds": 34.982163200038485,
+      "raw": "{\"entities\": [{\"text\": \"Milan\", \"label\": \"LOCATION\"}, {\"text\": \"Perth\", \"label\": \"LOCATION\"}, {\"text\": \"Australian Open\", \"label\": \"EVENT\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t33",
+      "seconds": 29.795062299934216,
+      "raw": "{\"entities\": [{\"text\": \"Mount Kinabalu\", \"label\": \"LOCATION\"}, {\"text\": \"Sandakan\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t34",
+      "seconds": 19.018248299951665,
+      "raw": "{\"entities\": [{\"text\": \"Oakridge Primary School\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t35",
+      "seconds": 17.795819799997844,
+      "raw": "{\"entities\": [{\"text\": \"grandmother\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t36",
+      "seconds": 29.759410500060767,
+      "raw": "{\"entities\": [{\"text\": \"Evergreen Insurance\", \"label\": \"ORG\"}, {\"text\": \"Northshore Trust\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t37",
+      "seconds": 27.001887600054033,
+      "raw": "{\"entities\": [{\"text\": \"Sundaram Iyer\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t38",
+      "seconds": 31.91278080001939,
+      "raw": "{\"entities\": [{\"text\": \"Great Barrier Reef\", \"label\": \"LOCATION\"}, {\"text\": \"Cairns\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t39",
+      "seconds": 12.739970900001936,
+      "raw": "{\"entities\": [{\"text\": \"Seoul Design Week\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t40",
+      "seconds": 11.660589199978858,
+      "raw": "{\"entities\": [{\"text\": \"Dubai\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t41",
+      "seconds": 12.067016200046055,
+      "raw": "{\"entities\": [{\"text\": \"Michael Soh\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t42",
+      "seconds": 17.980096300016157,
+      "raw": "{\"entities\": [{\"text\": \"Bukit Timah\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t43",
+      "seconds": 20.21727510006167,
+      "raw": "{\"entities\": [{\"text\": \"Silverline Foods\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t44",
+      "seconds": 21.750323699903674,
+      "raw": "{\"entities\": [{\"text\": \"Cannes Film Festival\", \"label\": \"ORG\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t45",
+      "seconds": 25.702811400056817,
+      "raw": "{\"entities\": [{\"text\": \"Changi\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t46",
+      "seconds": 23.96144560002722,
+      "raw": "{\"entities\": [{\"text\": \"Seoul\", \"label\": \"LOCATION\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t47",
+      "seconds": 35.32117500004824,
+      "raw": "{\"entities\": [{\"text\": \"Delta Labs\", \"label\": \"ORG\"}, {\"text\": \"Berlin AI Summit\", \"label\": \"EVENT\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t48",
+      "seconds": 9.267321299994364,
+      "raw": "{\"entities\": []}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t49",
+      "seconds": 22.033227000036277,
+      "raw": "{\"entities\": [{\"text\": \"Anselm\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t50",
+      "seconds": 23.722756700008176,
+      "raw": "{\"entities\": [{\"text\": \"Grace Tay\", \"label\": \"PERSON\"}]}",
+      "parse_error": null,
+      "rejected": 0
+    }
+  ]
+}

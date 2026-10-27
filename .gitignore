@@ -1,0 +1,10 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+*.zip
+tmp/
+submission-stage/
+.env
+.env.*
+!.env.example

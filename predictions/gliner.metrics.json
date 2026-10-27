@@ -1,0 +1,382 @@
+{
+  "model": {
+    "name": "gliner-community/gliner_small-v2.5",
+    "revision": "f227d3cd637bd4e6757ae143935316d062393341",
+    "parameters": 166023936,
+    "dtype": "torch.float32",
+    "quantization": "none",
+    "device": "cpu"
+  },
+  "input_sha256": "4e92b1200692fda2494c8052c589d384f613483ffadb450e94f438384990397d",
+  "prompt_sha256": "e8ae4542e50232867191206c5268eeeca243883b6ef713d75584d2b0c8347737",
+  "threads": 4,
+  "snippets": 50,
+  "median_seconds": 0.2355573499808088,
+  "p95_seconds": 0.28297940001357347,
+  "mean_seconds": 0.23641069599427283,
+  "peak_rss_mib": 1138.63671875,
+  "parse_failures": 0,
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "gliner": "0.2.29",
+    "psutil": "7.2.2"
+  },
+  "python": "3.13.5",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "logical_cpus": 16,
+  "ram_gib": 15.74490737915039,
+  "audit": [
+    {
+      "id": "t01",
+      "seconds": 0.2598251000745222,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t02",
+      "seconds": 0.23812490003183484,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t03",
+      "seconds": 0.2649303999496624,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t04",
+      "seconds": 0.26555310003459454,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t05",
+      "seconds": 0.23891080007888377,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t06",
+      "seconds": 0.2992583999875933,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t07",
+      "seconds": 0.23833660001400858,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t08",
+      "seconds": 0.2274677000241354,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t09",
+      "seconds": 0.23258890002034605,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t10",
+      "seconds": 0.23079159995540977,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t11",
+      "seconds": 0.23724720010068268,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t12",
+      "seconds": 0.2811654000543058,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t13",
+      "seconds": 0.2403825999936089,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t14",
+      "seconds": 0.23937169997952878,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t15",
+      "seconds": 0.2616633999859914,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t16",
+      "seconds": 0.23234420001972467,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t17",
+      "seconds": 0.20732069993391633,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t18",
+      "seconds": 0.22002419992350042,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t19",
+      "seconds": 0.20054739993065596,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t20",
+      "seconds": 0.26532020000740886,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t21",
+      "seconds": 0.24913270003162324,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t22",
+      "seconds": 0.2639282000018284,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t23",
+      "seconds": 0.2823433999437839,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t24",
+      "seconds": 0.25276059994939715,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t25",
+      "seconds": 0.26791619998402894,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t26",
+      "seconds": 0.20005069999024272,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t27",
+      "seconds": 0.26290549989789724,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t28",
+      "seconds": 0.23855259991250932,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t29",
+      "seconds": 0.23706099996343255,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t30",
+      "seconds": 0.23121570004150271,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t31",
+      "seconds": 0.3052001999458298,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t32",
+      "seconds": 0.24849609995726496,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t33",
+      "seconds": 0.20822769997175783,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t34",
+      "seconds": 0.20981939998455346,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t35",
+      "seconds": 0.18894659995567054,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t36",
+      "seconds": 0.19335650000721216,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t37",
+      "seconds": 0.19011700002010912,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t38",
+      "seconds": 0.20306149998214096,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t39",
+      "seconds": 0.21865700010675937,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t40",
+      "seconds": 0.20684729993809015,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t41",
+      "seconds": 0.21893570001702756,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t42",
+      "seconds": 0.19703060004394501,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t43",
+      "seconds": 0.28297940001357347,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t44",
+      "seconds": 0.2452368000522256,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t45",
+      "seconds": 0.22551759995985776,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t46",
+      "seconds": 0.2324341000057757,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t47",
+      "seconds": 0.23405369999818504,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t48",
+      "seconds": 0.20185059995856136,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t49",
+      "seconds": 0.2182285999879241,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    },
+    {
+      "id": "t50",
+      "seconds": 0.22449729999061674,
+      "raw": null,
+      "parse_error": null,
+      "rejected": 0
+    }
+  ]
+}

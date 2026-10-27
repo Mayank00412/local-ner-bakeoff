@@ -1,0 +1,50 @@
+{"id": "t01", "entities": [{"text": "Daniel Koh", "label": "PERSON"}]}
+{"id": "t02", "entities": [{"text": "Jordanian", "label": "LOCATION"}]}
+{"id": "t03", "entities": [{"text": "Leila Haddad", "label": "PERSON"}]}
+{"id": "t04", "entities": [{"text": "Phoenix", "label": "LOCATION"}]}
+{"id": "t05", "entities": [{"text": "Victoria Harbour", "label": "LOCATION"}]}
+{"id": "t06", "entities": [{"text": "rohan mehta", "label": "PERSON"}]}
+{"id": "t07", "entities": [{"text": "ASEAN", "label": "ORG"}, {"text": "Jakarta", "label": "LOCATION"}, {"text": "ASEAN Summit", "label": "EVENT"}]}
+{"id": "t08", "entities": [{"text": "Ministry of Transport", "label": "ORG"}, {"text": "Land Transport Authority", "label": "ORG"}]}
+{"id": "t09", "entities": [{"text": "Ng Kah Hock", "label": "PERSON"}]}
+{"id": "t10", "entities": [{"text": "Mary-Ann Fernandez", "label": "PERSON"}]}
+{"id": "t11", "entities": [{"text": "results", "label": "EVENT"}]}
+{"id": "t12", "entities": [{"text": "Meilan", "label": "EVENT"}]}
+{"id": "t13", "entities": [{"text": "Esplanade", "label": "LOCATION"}]}
+{"id": "t14", "entities": [{"text": "Greenfield Bank", "label": "ORG"}]}
+{"id": "t15", "entities": [{"text": "Dinamo Riga", "label": "ORG"}, {"text": "Tallinn United", "label": "ORG"}]}
+{"id": "t16", "entities": [{"text": "Little India", "label": "LOCATION"}]}
+{"id": "t17", "entities": [{"text": "Mekong River Commission", "label": "ORG"}]}
+{"id": "t18", "entities": [{"text": "Rajiv", "label": "PERSON"}, {"text": "Lake Pichola", "label": "LOCATION"}, {"text": "Udaipur", "label": "LOCATION"}]}
+{"id": "t19", "entities": [{"text": "Amazon", "label": "LOCATION"}]}
+{"id": "t20", "entities": [{"text": "Institute of Policy Studies", "label": "ORG"}]}
+{"id": "t21", "entities": [{"text": "Kuala Lumpur", "label": "LOCATION"}, {"text": "Kota Kinabalu", "label": "LOCATION"}]}
+{"id": "t22", "entities": [{"text": "Bluewave Telecom", "label": "ORG"}]}
+{"id": "t23", "entities": [{"text": "Singapore Grand Prix", "label": "EVENT"}]}
+{"id": "t24", "entities": [{"text": "Thomas Becker", "label": "PERSON"}, {"text": "Hamburg", "label": "LOCATION"}, {"text": "University of Auckland", "label": "ORG"}]}
+{"id": "t25", "entities": [{"text": "Causeway", "label": "LOCATION"}, {"text": "Johor Bahru", "label": "LOCATION"}]}
+{"id": "t26", "entities": [{"text": "Hyderabad", "label": "LOCATION"}]}
+{"id": "t27", "entities": [{"text": "Mei Ling Zhou", "label": "PERSON"}, {"text": "Arturo Gil", "label": "PERSON"}]}
+{"id": "t28", "entities": [{"text": "Straits Orchestra", "label": "ORG"}, {"text": "Victoria Concert Hall", "label": "LOCATION"}]}
+{"id": "t29", "entities": []}
+{"id": "t30", "entities": [{"text": "Lotus Realty", "label": "ORG"}]}
+{"id": "t31", "entities": [{"text": "Jakarta", "label": "LOCATION"}, {"text": "Indonesian Football Association", "label": "ORG"}]}
+{"id": "t32", "entities": [{"text": "Milan", "label": "LOCATION"}, {"text": "Perth", "label": "LOCATION"}, {"text": "Australian Open", "label": "EVENT"}]}
+{"id": "t33", "entities": [{"text": "Mount Kinabalu", "label": "LOCATION"}, {"text": "Sandakan", "label": "LOCATION"}]}
+{"id": "t34", "entities": [{"text": "Oakridge Primary School", "label": "ORG"}]}
+{"id": "t35", "entities": [{"text": "grandmother", "label": "PERSON"}]}
+{"id": "t36", "entities": [{"text": "Evergreen Insurance", "label": "ORG"}, {"text": "Northshore Trust", "label": "ORG"}]}
+{"id": "t37", "entities": [{"text": "Sundaram Iyer", "label": "PERSON"}]}
+{"id": "t38", "entities": [{"text": "Great Barrier Reef", "label": "LOCATION"}, {"text": "Cairns", "label": "LOCATION"}]}
+{"id": "t39", "entities": [{"text": "Seoul Design Week", "label": "LOCATION"}]}
+{"id": "t40", "entities": [{"text": "Dubai", "label": "LOCATION"}]}
+{"id": "t41", "entities": [{"text": "Michael Soh", "label": "PERSON"}]}
+{"id": "t42", "entities": [{"text": "Bukit Timah", "label": "LOCATION"}]}
+{"id": "t43", "entities": [{"text": "Silverline Foods", "label": "ORG"}]}
+{"id": "t44", "entities": [{"text": "Cannes Film Festival", "label": "ORG"}]}
+{"id": "t45", "entities": [{"text": "Changi", "label": "LOCATION"}]}
+{"id": "t46", "entities": [{"text": "Seoul", "label": "LOCATION"}]}
+{"id": "t47", "entities": [{"text": "Delta Labs", "label": "ORG"}, {"text": "Berlin AI Summit", "label": "EVENT"}]}
+{"id": "t48", "entities": []}
+{"id": "t49", "entities": [{"text": "Anselm", "label": "PERSON"}]}
+{"id": "t50", "entities": [{"text": "Grace Tay", "label": "PERSON"}]}

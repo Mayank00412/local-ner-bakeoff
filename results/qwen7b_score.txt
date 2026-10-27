@@ -1,0 +1,31 @@
+snippets scored: 50  missing predictions: 0  unknown ids: 0
+label           P      R     F1    TP    FP    FN
+PERSON      1.000  0.923  0.960    24     0     2
+ORG         0.955  0.840  0.894    21     1     4
+LOCATION    1.000  0.857  0.923    36     0     6
+EVENT       0.875  0.467  0.609     7     1     8
+MICRO-ALL   0.978  0.815  0.889    88     2    20
+
+errors (id, type, entity):
+  t07  FN  'asean' [ORG]
+  t08  FN  'singapore' [LOCATION]
+  t10  FP  'kochi muziris biennale' [ORG]
+  t10  FN  'kochi muziris biennale' [EVENT]
+  t12  FN  'typhoon meilan' [EVENT]
+  t14  FN  'harbour daily' [ORG]
+  t15  FN  'baltic cup' [EVENT]
+  t16  FN  'diwali' [EVENT]
+  t18  FN  'udaipur' [LOCATION]
+  t18  FN  'lake pichola' [LOCATION]
+  t20  FN  'institute of policy studies' [ORG]
+  t21  FN  'nurul huda' [PERSON]
+  t21  FN  'hari raya' [EVENT]
+  t25  FN  'causeway' [LOCATION]
+  t26  FN  'hyderabad' [LOCATION]
+  t27  FN  'singapore food festival' [EVENT]
+  t34  FP  'district science fair' [EVENT]
+  t38  FN  'great barrier reef' [LOCATION]
+  t39  FN  'seoul design week' [EVENT]
+  t43  FN  'krishnan' [PERSON]
+  t44  FN  'cannes film festival' [EVENT]
+  t50  FN  "lakeside residents' association" [ORG]

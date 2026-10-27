@@ -1,0 +1,10 @@
+{"id": "d01", "entities": [{"text": "Gardens by the Bay", "label": "LOCATION"}]}
+{"id": "d02", "entities": [{"text": "Harbourline Logistics", "label": "ORG"}]}
+{"id": "d03", "entities": [{"text": "Marcus Teo", "label": "PERSON"}]}
+{"id": "d04", "entities": [{"text": "Asia Cup", "label": "EVENT"}]}
+{"id": "d05", "entities": [{"text": "Wen Li", "label": "PERSON"}]}
+{"id": "d06", "entities": []}
+{"id": "d07", "entities": [{"text": "Raffles Institution", "label": "ORG"}, {"text": "Hwa Chong Institution", "label": "ORG"}]}
+{"id": "d08", "entities": [{"text": "Northwind Analytics", "label": "ORG"}, {"text": "Bengaluru", "label": "LOCATION"}, {"text": "Chennai", "label": "LOCATION"}, {"text": "Kavya Reddy", "label": "PERSON"}]}
+{"id": "d09", "entities": [{"text": "Mekong", "label": "LOCATION"}, {"text": "Vientiane", "label": "LOCATION"}]}
+{"id": "d10", "entities": [{"text": "Bluefin Studios", "label": "ORG"}]}

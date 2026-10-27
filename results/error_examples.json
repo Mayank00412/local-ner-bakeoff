@@ -1,0 +1,2233 @@
+{
+  "gliner": [
+    {
+      "id": "t01",
+      "text": "Minister Daniel Koh opened a new data centre in Tuas on Monday.",
+      "false_positives": [
+        [
+          "minister",
+          "ORG"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t02",
+      "text": "Jordan Ellis met Jordanian officials in Amman to discuss water projects.",
+      "false_positives": [
+        [
+          "jordanian officials",
+          "ORG"
+        ],
+        [
+          "water projects",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t09",
+      "text": "Ng Kah Hock, a retired teacher from Penang, won the state lottery.",
+      "false_positives": [
+        [
+          "state lottery",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t11",
+      "text": "He said that they would announce the results later this week.",
+      "false_positives": [
+        [
+          "he",
+          "PERSON"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t19",
+      "text": "Researchers mapped a previously unknown tributary of the Amazon.",
+      "false_positives": [
+        [
+          "researchers",
+          "ORG"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t20",
+      "text": "The report, published by the Institute of Policy Studies, did not name any individuals.",
+      "false_positives": [
+        [
+          "individuals",
+          "PERSON"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t22",
+      "text": "A spokesperson for Bluewave Telecom confirmed the outage affected customers across Johor.",
+      "false_positives": [
+        [
+          "spokesperson",
+          "PERSON"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t28",
+      "text": "The Straits Orchestra performed at the Victoria Concert Hall.",
+      "false_positives": [
+        [
+          "the straits orchestra",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "straits orchestra",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t29",
+      "text": "Nobody has seen the missing hiker since Sunday, police said.",
+      "false_positives": [
+        [
+          "hiker",
+          "PERSON"
+        ],
+        [
+          "police",
+          "ORG"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t34",
+      "text": "Oakridge Primary School will host the district science fair on 12 March.",
+      "false_positives": [
+        [
+          "district science fair",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t38",
+      "text": "The Great Barrier Reef suffered another bleaching event, scientists in Cairns said.",
+      "false_positives": [
+        [
+          "bleaching event",
+          "EVENT"
+        ],
+        [
+          "scientists",
+          "ORG"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t40",
+      "text": "\"Deadline in Dubai\" is a new thriller streaming from next month.",
+      "false_positives": [
+        [
+          "deadline in dubai",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t42",
+      "text": "Water supply to Bukit Timah will be cut for six hours on Thursday.",
+      "false_positives": [
+        [
+          "thursday",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t45",
+      "text": "Local residents near Changi complained about noise from the construction site.",
+      "false_positives": [
+        [
+          "construction site",
+          "LOCATION"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t49",
+      "text": "Brother Anselm of St. Andrew's Mission thanked volunteers from across Penang.",
+      "false_positives": [
+        [
+          "brother anselm",
+          "PERSON"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "anselm",
+          "PERSON"
+        ],
+        [
+          "st. andrew's mission",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t50",
+      "text": "Councillor Grace Tay said the Lakeside Residents' Association would meet on Friday.",
+      "false_positives": [
+        [
+          "councillor grace tay",
+          "PERSON"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "grace tay",
+          "PERSON"
+        ]
+      ]
+    }
+  ],
+  "qwen05b": [
+    {
+      "id": "t01",
+      "text": "Minister Daniel Koh opened a new data centre in Tuas on Monday.",
+      "false_positives": [
+        [
+          "data centre",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "tuas",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "text": "Jordan Ellis met Jordanian officials in Amman to discuss water projects.",
+      "false_positives": [
+        [
+          "jordanian officials",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "amman",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t04",
+      "text": "Temperatures in Phoenix reached 45 degrees on Tuesday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "phoenix",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t05",
+      "text": "Victoria Lim crossed Victoria Harbour by ferry before the Hong Kong Sevens.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "hong kong sevens",
+          "EVENT"
+        ],
+        [
+          "victoria harbour",
+          "LOCATION"
+        ],
+        [
+          "victoria lim",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t06",
+      "text": "so uh we spoke with rohan mehta earlier and he said the mumbai office is closing",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "mumbai",
+          "LOCATION"
+        ],
+        [
+          "rohan mehta",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t07",
+      "text": "ASEAN leaders gathered in Jakarta for the ASEAN Summit.",
+      "false_positives": [
+        [
+          "summit",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "asean summit",
+          "EVENT"
+        ],
+        [
+          "jakarta",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t08",
+      "text": "Singapore's Ministry of Transport and the Land Transport Authority are reviewing the bus routes.",
+      "false_positives": [
+        [
+          "ministry of transport and the land transport authority",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "land transport authority",
+          "ORG"
+        ],
+        [
+          "ministry of transport",
+          "ORG"
+        ],
+        [
+          "singapore",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t09",
+      "text": "Ng Kah Hock, a retired teacher from Penang, won the state lottery.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "ng kah hock",
+          "PERSON"
+        ],
+        [
+          "penang",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t10",
+      "text": "Mary-Ann Fernandez will lead the Kochi Muziris Biennale team next year.",
+      "false_positives": [
+        [
+          "kochi muziris biennale",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "kochi muziris biennale",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t12",
+      "text": "Typhoon Meilan made landfall near Da Nang early on Friday.",
+      "false_positives": [
+        [
+          "typhoon",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "da nang",
+          "LOCATION"
+        ],
+        [
+          "typhoon meilan",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t13",
+      "text": "Families gathered at the Esplanade to watch the National Day Parade.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "esplanade",
+          "LOCATION"
+        ],
+        [
+          "national day parade",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t14",
+      "text": "Harbour Daily reported that Greenfield Bank will close three branches in Kolkata.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "greenfield bank",
+          "ORG"
+        ],
+        [
+          "harbour daily",
+          "ORG"
+        ],
+        [
+          "kolkata",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t15",
+      "text": "Sofia Petrova scored twice as Dinamo Riga beat Tallinn United in the Baltic Cup.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "tallinn united",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t16",
+      "text": "Diwali celebrations in Little India drew record crowds this year.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "little india",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t17",
+      "text": "The Mekong River Commission warned that water levels near Phnom Penh could fall.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "phnom penh",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t18",
+      "text": "Anil Rao and his brother Rajiv run a bakery near Lake Pichola in Udaipur.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "lake pichola",
+          "LOCATION"
+        ],
+        [
+          "udaipur",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t19",
+      "text": "Researchers mapped a previously unknown tributary of the Amazon.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "amazon",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t20",
+      "text": "The report, published by the Institute of Policy Studies, did not name any individuals.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "institute of policy studies",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t21",
+      "text": "Nurul Huda travelled from Kuala Lumpur to Kota Kinabalu for Hari Raya.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "kota kinabalu",
+          "LOCATION"
+        ],
+        [
+          "kuala lumpur",
+          "LOCATION"
+        ],
+        [
+          "nurul huda",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t22",
+      "text": "A spokesperson for Bluewave Telecom confirmed the outage affected customers across Johor.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "johor",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t23",
+      "text": "The Formula 1 Singapore Grand Prix returns to Marina Bay this September.",
+      "false_positives": [
+        [
+          "formula 1",
+          "ORG"
+        ],
+        [
+          "singapore grand prix",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "formula 1 singapore grand prix",
+          "EVENT"
+        ],
+        [
+          "marina bay",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t24",
+      "text": "Thomas Becker, who grew up in Hamburg, now teaches at the University of Auckland.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "hamburg",
+          "LOCATION"
+        ],
+        [
+          "thomas becker",
+          "PERSON"
+        ],
+        [
+          "university of auckland",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t25",
+      "text": "Traffic was heavy on the Causeway as travellers headed to Johor Bahru.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "causeway",
+          "LOCATION"
+        ],
+        [
+          "johor bahru",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t26",
+      "text": "Orchid Pharma said its trial in Hyderabad had enrolled 400 patients.",
+      "false_positives": [
+        [
+          "trial",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "hyderabad",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t27",
+      "text": "Chef Mei Ling Zhou will headline the Singapore Food Festival alongside Chef Arturo Gil.",
+      "false_positives": [
+        [
+          "chef arturo gil",
+          "PERSON"
+        ],
+        [
+          "chef mei ling zhou",
+          "PERSON"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "arturo gil",
+          "PERSON"
+        ],
+        [
+          "mei ling zhou",
+          "PERSON"
+        ],
+        [
+          "singapore food festival",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t28",
+      "text": "The Straits Orchestra performed at the Victoria Concert Hall.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "straits orchestra",
+          "ORG"
+        ],
+        [
+          "victoria concert hall",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t29",
+      "text": "Nobody has seen the missing hiker since Sunday, police said.",
+      "false_positives": [
+        [
+          "missing hiker",
+          "PERSON"
+        ],
+        [
+          "police",
+          "ORG"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t30",
+      "text": "Ravi Chandran said Lotus Realty would build 200 homes in Whitefield.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "lotus realty",
+          "ORG"
+        ],
+        [
+          "ravi chandran",
+          "PERSON"
+        ],
+        [
+          "whitefield",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t31",
+      "text": "Flooding in Jakarta forced the Indonesian Football Association to postpone a match.",
+      "false_positives": [
+        [
+          "football association",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "indonesian football association",
+          "ORG"
+        ],
+        [
+          "jakarta",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t32",
+      "text": "Elena Rossi flew from Milan to Perth for the Australian Open.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "australian open",
+          "EVENT"
+        ],
+        [
+          "elena rossi",
+          "PERSON"
+        ],
+        [
+          "milan",
+          "LOCATION"
+        ],
+        [
+          "perth",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t33",
+      "text": "We visited Mount Kinabalu, then drove to Sandakan.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "mount kinabalu",
+          "LOCATION"
+        ],
+        [
+          "sandakan",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t34",
+      "text": "Oakridge Primary School will host the district science fair on 12 March.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "oakridge primary school",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t35",
+      "text": "Dewi Lestari told the audience her grandmother had lived in Yogyakarta.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "yogyakarta",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t36",
+      "text": "Evergreen Insurance and Northshore Trust signed an agreement in Singapore on Wednesday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "singapore",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t37",
+      "text": "Sundaram Iyer, 54, was named chairman of the Madras Cricket Club.",
+      "false_positives": [
+        [
+          "iyer",
+          "PERSON"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "sundaram iyer",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t38",
+      "text": "The Great Barrier Reef suffered another bleaching event, scientists in Cairns said.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "cairns",
+          "LOCATION"
+        ],
+        [
+          "great barrier reef",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t39",
+      "text": "Hana Sato and Jin-woo Park will co-host the Seoul Design Week opening.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "seoul design week",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t40",
+      "text": "\"Deadline in Dubai\" is a new thriller streaming from next month.",
+      "false_positives": [
+        [
+          "from",
+          "ORG"
+        ],
+        [
+          "in",
+          "ORG"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t41",
+      "text": "Michael Soh, the coach of Sentosa Sharks, praised his goalkeeper after the match.",
+      "false_positives": [
+        [
+          "coach",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "sentosa sharks",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t42",
+      "text": "Water supply to Bukit Timah will be cut for six hours on Thursday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "bukit timah",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t43",
+      "text": "Krishnan said the company, Silverline Foods, had expanded to Dhaka and Colombo.",
+      "false_positives": [
+        [
+          "company",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "colombo",
+          "LOCATION"
+        ],
+        [
+          "dhaka",
+          "LOCATION"
+        ],
+        [
+          "krishnan",
+          "PERSON"
+        ],
+        [
+          "silverline foods",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t44",
+      "text": "The Cannes Film Festival jury, led by Isabelle Moreau, praised the debut.",
+      "false_positives": [
+        [
+          "cannes film festival jury",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "cannes film festival",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t45",
+      "text": "Local residents near Changi complained about noise from the construction site.",
+      "false_positives": [
+        [
+          "construction site",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "changi",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t46",
+      "text": "It was the first time since the Seoul Olympics that the two nations had met.",
+      "false_positives": [
+        [
+          "seoul olympics",
+          "ORG"
+        ],
+        [
+          "two nations",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "seoul olympics",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t47",
+      "text": "Fatima Al-Sayed, a researcher at Delta Labs, presented findings at the Berlin AI Summit.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "berlin ai summit",
+          "EVENT"
+        ],
+        [
+          "delta labs",
+          "ORG"
+        ],
+        [
+          "fatima al-sayed",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t48",
+      "text": "The ferry from Batam to HarbourFront runs every thirty minutes.",
+      "false_positives": [
+        [
+          "ferry",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "batam",
+          "LOCATION"
+        ],
+        [
+          "harbourfront",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t49",
+      "text": "Brother Anselm of St. Andrew's Mission thanked volunteers from across Penang.",
+      "false_positives": [
+        [
+          "volunteers",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "penang",
+          "LOCATION"
+        ],
+        [
+          "st. andrew's mission",
+          "ORG"
+        ]
+      ]
+    }
+  ],
+  "qwen15b": [
+    {
+      "id": "t01",
+      "text": "Minister Daniel Koh opened a new data centre in Tuas on Monday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "tuas",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "text": "Jordan Ellis met Jordanian officials in Amman to discuss water projects.",
+      "false_positives": [
+        [
+          "jordanian",
+          "LOCATION"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "amman",
+          "LOCATION"
+        ],
+        [
+          "jordan ellis",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t03",
+      "text": "Phoenix Capital hired Leila Haddad as chief financial officer.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "phoenix capital",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t05",
+      "text": "Victoria Lim crossed Victoria Harbour by ferry before the Hong Kong Sevens.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "hong kong sevens",
+          "EVENT"
+        ],
+        [
+          "victoria lim",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t06",
+      "text": "so uh we spoke with rohan mehta earlier and he said the mumbai office is closing",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "mumbai",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t08",
+      "text": "Singapore's Ministry of Transport and the Land Transport Authority are reviewing the bus routes.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "singapore",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t09",
+      "text": "Ng Kah Hock, a retired teacher from Penang, won the state lottery.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "penang",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t10",
+      "text": "Mary-Ann Fernandez will lead the Kochi Muziris Biennale team next year.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "kochi muziris biennale",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t11",
+      "text": "He said that they would announce the results later this week.",
+      "false_positives": [
+        [
+          "results",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t12",
+      "text": "Typhoon Meilan made landfall near Da Nang early on Friday.",
+      "false_positives": [
+        [
+          "meilan",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "da nang",
+          "LOCATION"
+        ],
+        [
+          "typhoon meilan",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t13",
+      "text": "Families gathered at the Esplanade to watch the National Day Parade.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "national day parade",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t14",
+      "text": "Harbour Daily reported that Greenfield Bank will close three branches in Kolkata.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "harbour daily",
+          "ORG"
+        ],
+        [
+          "kolkata",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t15",
+      "text": "Sofia Petrova scored twice as Dinamo Riga beat Tallinn United in the Baltic Cup.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "baltic cup",
+          "EVENT"
+        ],
+        [
+          "sofia petrova",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t16",
+      "text": "Diwali celebrations in Little India drew record crowds this year.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "diwali",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t17",
+      "text": "The Mekong River Commission warned that water levels near Phnom Penh could fall.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "phnom penh",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t18",
+      "text": "Anil Rao and his brother Rajiv run a bakery near Lake Pichola in Udaipur.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "anil rao",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t21",
+      "text": "Nurul Huda travelled from Kuala Lumpur to Kota Kinabalu for Hari Raya.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "hari raya",
+          "EVENT"
+        ],
+        [
+          "nurul huda",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t22",
+      "text": "A spokesperson for Bluewave Telecom confirmed the outage affected customers across Johor.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "johor",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t23",
+      "text": "The Formula 1 Singapore Grand Prix returns to Marina Bay this September.",
+      "false_positives": [
+        [
+          "singapore grand prix",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "formula 1 singapore grand prix",
+          "EVENT"
+        ],
+        [
+          "marina bay",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t26",
+      "text": "Orchid Pharma said its trial in Hyderabad had enrolled 400 patients.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "orchid pharma",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t27",
+      "text": "Chef Mei Ling Zhou will headline the Singapore Food Festival alongside Chef Arturo Gil.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "singapore food festival",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t30",
+      "text": "Ravi Chandran said Lotus Realty would build 200 homes in Whitefield.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "ravi chandran",
+          "PERSON"
+        ],
+        [
+          "whitefield",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t32",
+      "text": "Elena Rossi flew from Milan to Perth for the Australian Open.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "elena rossi",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t35",
+      "text": "Dewi Lestari told the audience her grandmother had lived in Yogyakarta.",
+      "false_positives": [
+        [
+          "grandmother",
+          "PERSON"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "dewi lestari",
+          "PERSON"
+        ],
+        [
+          "yogyakarta",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t36",
+      "text": "Evergreen Insurance and Northshore Trust signed an agreement in Singapore on Wednesday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "singapore",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t37",
+      "text": "Sundaram Iyer, 54, was named chairman of the Madras Cricket Club.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "madras cricket club",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t39",
+      "text": "Hana Sato and Jin-woo Park will co-host the Seoul Design Week opening.",
+      "false_positives": [
+        [
+          "seoul design week",
+          "LOCATION"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "hana sato",
+          "PERSON"
+        ],
+        [
+          "jin-woo park",
+          "PERSON"
+        ],
+        [
+          "seoul design week",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t40",
+      "text": "\"Deadline in Dubai\" is a new thriller streaming from next month.",
+      "false_positives": [
+        [
+          "dubai",
+          "LOCATION"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t41",
+      "text": "Michael Soh, the coach of Sentosa Sharks, praised his goalkeeper after the match.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "sentosa sharks",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t43",
+      "text": "Krishnan said the company, Silverline Foods, had expanded to Dhaka and Colombo.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "colombo",
+          "LOCATION"
+        ],
+        [
+          "dhaka",
+          "LOCATION"
+        ],
+        [
+          "krishnan",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t44",
+      "text": "The Cannes Film Festival jury, led by Isabelle Moreau, praised the debut.",
+      "false_positives": [
+        [
+          "cannes film festival",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "cannes film festival",
+          "EVENT"
+        ],
+        [
+          "isabelle moreau",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t46",
+      "text": "It was the first time since the Seoul Olympics that the two nations had met.",
+      "false_positives": [
+        [
+          "seoul",
+          "LOCATION"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "seoul olympics",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t47",
+      "text": "Fatima Al-Sayed, a researcher at Delta Labs, presented findings at the Berlin AI Summit.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "fatima al-sayed",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t48",
+      "text": "The ferry from Batam to HarbourFront runs every thirty minutes.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "batam",
+          "LOCATION"
+        ],
+        [
+          "harbourfront",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t49",
+      "text": "Brother Anselm of St. Andrew's Mission thanked volunteers from across Penang.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "penang",
+          "LOCATION"
+        ],
+        [
+          "st. andrew's mission",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t50",
+      "text": "Councillor Grace Tay said the Lakeside Residents' Association would meet on Friday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "lakeside residents' association",
+          "ORG"
+        ]
+      ]
+    }
+  ],
+  "qwen3b": [
+    {
+      "id": "t01",
+      "text": "Minister Daniel Koh opened a new data centre in Tuas on Monday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "tuas",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "text": "Jordan Ellis met Jordanian officials in Amman to discuss water projects.",
+      "false_positives": [
+        [
+          "jordanian",
+          "LOCATION"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "jordan ellis",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t03",
+      "text": "Phoenix Capital hired Leila Haddad as chief financial officer.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "phoenix capital",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t04",
+      "text": "Temperatures in Phoenix reached 45 degrees on Tuesday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "phoenix",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t05",
+      "text": "Victoria Lim crossed Victoria Harbour by ferry before the Hong Kong Sevens.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "victoria lim",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t06",
+      "text": "so uh we spoke with rohan mehta earlier and he said the mumbai office is closing",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "rohan mehta",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t07",
+      "text": "ASEAN leaders gathered in Jakarta for the ASEAN Summit.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "asean summit",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t08",
+      "text": "Singapore's Ministry of Transport and the Land Transport Authority are reviewing the bus routes.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "ministry of transport",
+          "ORG"
+        ],
+        [
+          "singapore",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t09",
+      "text": "Ng Kah Hock, a retired teacher from Penang, won the state lottery.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "ng kah hock",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t10",
+      "text": "Mary-Ann Fernandez will lead the Kochi Muziris Biennale team next year.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "kochi muziris biennale",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t12",
+      "text": "Typhoon Meilan made landfall near Da Nang early on Friday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "typhoon meilan",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t14",
+      "text": "Harbour Daily reported that Greenfield Bank will close three branches in Kolkata.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "greenfield bank",
+          "ORG"
+        ],
+        [
+          "harbour daily",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t15",
+      "text": "Sofia Petrova scored twice as Dinamo Riga beat Tallinn United in the Baltic Cup.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "baltic cup",
+          "EVENT"
+        ],
+        [
+          "sofia petrova",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t16",
+      "text": "Diwali celebrations in Little India drew record crowds this year.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "diwali",
+          "EVENT"
+        ],
+        [
+          "little india",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t17",
+      "text": "The Mekong River Commission warned that water levels near Phnom Penh could fall.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "mekong river commission",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t18",
+      "text": "Anil Rao and his brother Rajiv run a bakery near Lake Pichola in Udaipur.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "lake pichola",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t19",
+      "text": "Researchers mapped a previously unknown tributary of the Amazon.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "amazon",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t20",
+      "text": "The report, published by the Institute of Policy Studies, did not name any individuals.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "institute of policy studies",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t21",
+      "text": "Nurul Huda travelled from Kuala Lumpur to Kota Kinabalu for Hari Raya.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "hari raya",
+          "EVENT"
+        ],
+        [
+          "nurul huda",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t23",
+      "text": "The Formula 1 Singapore Grand Prix returns to Marina Bay this September.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "formula 1 singapore grand prix",
+          "EVENT"
+        ],
+        [
+          "marina bay",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t24",
+      "text": "Thomas Becker, who grew up in Hamburg, now teaches at the University of Auckland.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "thomas becker",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t25",
+      "text": "Traffic was heavy on the Causeway as travellers headed to Johor Bahru.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "causeway",
+          "LOCATION"
+        ],
+        [
+          "johor bahru",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t26",
+      "text": "Orchid Pharma said its trial in Hyderabad had enrolled 400 patients.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "orchid pharma",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t27",
+      "text": "Chef Mei Ling Zhou will headline the Singapore Food Festival alongside Chef Arturo Gil.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "singapore food festival",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t28",
+      "text": "The Straits Orchestra performed at the Victoria Concert Hall.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "straits orchestra",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t30",
+      "text": "Ravi Chandran said Lotus Realty would build 200 homes in Whitefield.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "ravi chandran",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t31",
+      "text": "Flooding in Jakarta forced the Indonesian Football Association to postpone a match.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "jakarta",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t32",
+      "text": "Elena Rossi flew from Milan to Perth for the Australian Open.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "elena rossi",
+          "PERSON"
+        ],
+        [
+          "milan",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t33",
+      "text": "We visited Mount Kinabalu, then drove to Sandakan.",
+      "false_positives": [
+        [
+          "kinabalu",
+          "LOCATION"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "mount kinabalu",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t35",
+      "text": "Dewi Lestari told the audience her grandmother had lived in Yogyakarta.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "dewi lestari",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t36",
+      "text": "Evergreen Insurance and Northshore Trust signed an agreement in Singapore on Wednesday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "evergreen insurance",
+          "ORG"
+        ],
+        [
+          "northshore trust",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t37",
+      "text": "Sundaram Iyer, 54, was named chairman of the Madras Cricket Club.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "madras cricket club",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t38",
+      "text": "The Great Barrier Reef suffered another bleaching event, scientists in Cairns said.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "great barrier reef",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t39",
+      "text": "Hana Sato and Jin-woo Park will co-host the Seoul Design Week opening.",
+      "false_positives": [
+        [
+          "seoul",
+          "LOCATION"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "hana sato",
+          "PERSON"
+        ],
+        [
+          "jin-woo park",
+          "PERSON"
+        ],
+        [
+          "seoul design week",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t43",
+      "text": "Krishnan said the company, Silverline Foods, had expanded to Dhaka and Colombo.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "colombo",
+          "LOCATION"
+        ],
+        [
+          "dhaka",
+          "LOCATION"
+        ],
+        [
+          "krishnan",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t44",
+      "text": "The Cannes Film Festival jury, led by Isabelle Moreau, praised the debut.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "cannes film festival",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t45",
+      "text": "Local residents near Changi complained about noise from the construction site.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "changi",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t46",
+      "text": "It was the first time since the Seoul Olympics that the two nations had met.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "seoul olympics",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t48",
+      "text": "The ferry from Batam to HarbourFront runs every thirty minutes.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "batam",
+          "LOCATION"
+        ],
+        [
+          "harbourfront",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t49",
+      "text": "Brother Anselm of St. Andrew's Mission thanked volunteers from across Penang.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "anselm",
+          "PERSON"
+        ],
+        [
+          "st. andrew's mission",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t50",
+      "text": "Councillor Grace Tay said the Lakeside Residents' Association would meet on Friday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "lakeside residents' association",
+          "ORG"
+        ]
+      ]
+    }
+  ],
+  "qwen7b": [
+    {
+      "id": "t07",
+      "text": "ASEAN leaders gathered in Jakarta for the ASEAN Summit.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "asean",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t08",
+      "text": "Singapore's Ministry of Transport and the Land Transport Authority are reviewing the bus routes.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "singapore",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t10",
+      "text": "Mary-Ann Fernandez will lead the Kochi Muziris Biennale team next year.",
+      "false_positives": [
+        [
+          "kochi muziris biennale",
+          "ORG"
+        ]
+      ],
+      "false_negatives": [
+        [
+          "kochi muziris biennale",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t12",
+      "text": "Typhoon Meilan made landfall near Da Nang early on Friday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "typhoon meilan",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t14",
+      "text": "Harbour Daily reported that Greenfield Bank will close three branches in Kolkata.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "harbour daily",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t15",
+      "text": "Sofia Petrova scored twice as Dinamo Riga beat Tallinn United in the Baltic Cup.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "baltic cup",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t16",
+      "text": "Diwali celebrations in Little India drew record crowds this year.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "diwali",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t18",
+      "text": "Anil Rao and his brother Rajiv run a bakery near Lake Pichola in Udaipur.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "lake pichola",
+          "LOCATION"
+        ],
+        [
+          "udaipur",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t20",
+      "text": "The report, published by the Institute of Policy Studies, did not name any individuals.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "institute of policy studies",
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "id": "t21",
+      "text": "Nurul Huda travelled from Kuala Lumpur to Kota Kinabalu for Hari Raya.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "hari raya",
+          "EVENT"
+        ],
+        [
+          "nurul huda",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t25",
+      "text": "Traffic was heavy on the Causeway as travellers headed to Johor Bahru.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "causeway",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t26",
+      "text": "Orchid Pharma said its trial in Hyderabad had enrolled 400 patients.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "hyderabad",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t27",
+      "text": "Chef Mei Ling Zhou will headline the Singapore Food Festival alongside Chef Arturo Gil.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "singapore food festival",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t34",
+      "text": "Oakridge Primary School will host the district science fair on 12 March.",
+      "false_positives": [
+        [
+          "district science fair",
+          "EVENT"
+        ]
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "t38",
+      "text": "The Great Barrier Reef suffered another bleaching event, scientists in Cairns said.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "great barrier reef",
+          "LOCATION"
+        ]
+      ]
+    },
+    {
+      "id": "t39",
+      "text": "Hana Sato and Jin-woo Park will co-host the Seoul Design Week opening.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "seoul design week",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t43",
+      "text": "Krishnan said the company, Silverline Foods, had expanded to Dhaka and Colombo.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "krishnan",
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": "t44",
+      "text": "The Cannes Film Festival jury, led by Isabelle Moreau, praised the debut.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "cannes film festival",
+          "EVENT"
+        ]
+      ]
+    },
+    {
+      "id": "t50",
+      "text": "Councillor Grace Tay said the Lakeside Residents' Association would meet on Friday.",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "lakeside residents' association",
+          "ORG"
+        ]
+      ]
+    }
+  ]
+}

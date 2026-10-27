@@ -1,0 +1,7 @@
+{
+  "model": "qwen7b",
+  "completed_snippets": 13,
+  "status": "interrupted before metrics were written; not a completed benchmark",
+  "action": "preserved partial predictions; restart the complete 50-snippet run with identical frozen settings",
+  "excluded_from_reported_metrics": true
+}

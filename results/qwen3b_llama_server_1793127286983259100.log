@@ -1,0 +1,9 @@
+0.00.063.350 I srv  llama_server: initializing ...
+0.00.063.364 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.067.358 W srv  server_setup: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.079.405 I srv    load_model: loading model 'C:\Users\mayan\Documents\ChatGPT\softwareone\.cache\huggingface\hub\models--Qwen--Qwen2.5-3B-Instruct-GGUF\snapshots\7dabda4d13d513e3e842b20f0d435c732f172cbe\qwen2.5-3b-instruct-q4_k_m.gguf'
+0.00.567.900 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.02.427.552 I cmn          init: llama threadpool init, n_threads = 4
+0.03.009.690 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 2048, kv_unified = 'false'
+0.03.032.885 I srv  server_run_i: model loaded
+0.03.032.901 I srv  server_on_li: listening on http://127.0.0.1:54026

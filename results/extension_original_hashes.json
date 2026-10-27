@@ -1,0 +1,15 @@
+{
+  "predictions/gliner.jsonl": "49b6781789c8d7d8258af4d83be548143f9aac87f84ab8d6a9e2e2cc1dc93603",
+  "predictions/gliner.metrics.json": "2ff80de145796f33a879d4e2b25dfc4bd155ca70e618b9a0a76e50bc79a9c774",
+  "predictions/gliner_dev.jsonl": "10c7b02150582496e73f29d3a7372e12f895c2b0ae9cb89f0c6a2837665cf139",
+  "predictions/gliner_dev.metrics.json": "9dac466a7c3fcf7d26664b32a8d8383c4ee4e5087b2aea90efcc7812713f63c5",
+  "predictions/qwen05b.jsonl": "edc8a9899809e59abef0bdf29dd72344deec0c97e728a35afbb1e6bef9f722a8",
+  "predictions/qwen05b.metrics.json": "f7979f6413cbba69093dda1feec1c297ecdd928d9ec37885167c4874204702f4",
+  "predictions/qwen05b_dev.jsonl": "97d4ccf806148dba6a079aede3d05262e956a18886614352eb2004b435192fac",
+  "predictions/qwen05b_dev.metrics.json": "8ca32bb769b025cb307251bcffe38d75527a0622910734a9e24013d68ec0d1cc",
+  "predictions/qwen15b.jsonl": "4b283814392e5eef9e1baaba1a3615f1dd0e2638d85e06dfae2cbe6fd2776ac6",
+  "predictions/qwen15b.metrics.json": "870694ee012c0930b0dd571e59dd972b329e55edb56e7891239aa1586e5ef64f",
+  "predictions/qwen15b_dev.jsonl": "9f14b5a064e79b100ccc67ae1473e1f052cd134eba9ecec4f346445eb596991d",
+  "predictions/qwen15b_dev.metrics.json": "b1d03bf0a8d3e8522c1e999d8cc78998a55581ab49264daa50631c3b1ecfd050",
+  "results/frozen_settings.json": "60e652e8d0179f4e4ca3c548f7bae751e5fe827be3ed4828d63f7edc6c2daa7c"
+}

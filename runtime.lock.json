@@ -1,0 +1,6 @@
+{
+  "release": "llama.cpp b11935 CPU x64",
+  "download_url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-cpu-x64.zip",
+  "archive_sha256": "d13e3d617a724eef10a533b18d1178b5292f7f1395965adf4e83b1ab4e9fc4b6",
+  "server_relative_path": ".cache/llama-b11935/llama-server.exe"
+}
